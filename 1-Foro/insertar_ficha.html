@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
+<title>Insercion usuario </title>
+</head>
+<body>
+	<h3> Insercion nuevo usuario </h3>
+	<form action="insertar.php" method="GET">
+		<p>Nombre:
+		<input type="text" name="nombre" value="usuario" size="20">
+		Nick:
+		<input type="text" name="nick" value="nick" size="8">
+		Clave:
+		<input type="text" name="clave" value="contrasenya" size="20">
+		Email:
+		<input type="text" name="mail" value="correo" size="20">
+		<p><input type="submit" value="Insertar"></p>
+	</form>
+	
+	<!-- Ponemos un boton para volver a la tabla de usuarios -->
+	<p><a href="listado_usuarios_con_while.php">Volver al listado de usuarios</a></p>
+</body>
+</html>
